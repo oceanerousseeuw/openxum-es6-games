@@ -1,6 +1,6 @@
 # openxum-es6-games
 
-All crédits goes to : OpenXum-Team
+All credits goes to : OpenXum-Team
 
 ## Requirements : 
 
