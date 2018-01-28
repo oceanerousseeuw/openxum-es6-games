@@ -8,9 +8,16 @@ You need Node.js installed and running.
 
 # Installation : 
 
-git clone https://github.com/oceanerousseeuw/openxum-es6-games.git && cd ./openxum-es6-games
-cd test
-npm install @std/esm
+```bash 
+$ git clone https://github.com/oceanerousseeuw/openxum-es6-games.git && cd ./openxum-es6-games
+```
+
+```bash 
+$ cd test
+```
+```bash 
+$ npm install @std/esm
+``` 
 
 # Running tests :
 
