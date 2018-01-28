@@ -21,4 +21,6 @@ $ npm install @std/esm
 
 # Running tests :
 
-node -r @std/esm {test-name}.mjs
+```bash 
+$ node -r @std/esm {test-name}.mjs
+```
