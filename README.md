@@ -2,11 +2,11 @@
 
 All crédits goes to : OpenXum-Team
 
-# Requirements : 
+## Requirements : 
 
 You need Node.js installed and running.
 
-# Installation : 
+## Installation : 
 
 ```bash 
 $ git clone https://github.com/oceanerousseeuw/openxum-es6-games.git && cd ./openxum-es6-games
@@ -19,7 +19,7 @@ $ cd test
 $ npm install @std/esm
 ``` 
 
-# Running tests :
+## Running tests :
 
 ```bash 
 $ node -r @std/esm {test-name}.mjs
