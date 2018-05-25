@@ -3,12 +3,13 @@ import lib from '../lib/openxum-core/openxum';
 let red_win = 0;
 let yellow_win = 0;
 
-for (let i = 0; i < 20; ++i) {
+for (let i = 0; i < 10; ++i) {
   let e = new lib.OpenXum.Invers.Engine(lib.OpenXum.Invers.GameType.STANDARD, lib.OpenXum.Invers.Color.RED);
   let p1 = new lib.OpenXum.RandomPlayer(lib.OpenXum.Invers.Color.RED, e);
   let p2 = new lib.OpenXum.MCTSPlayer(lib.OpenXum.Invers.Color.YELLOW, e);
   let p = p1;
 
+  let i = 0;
   while (!e.is_finished()) {
     e.move(p.move());
     p = p === p1 ? p2 : p1;
