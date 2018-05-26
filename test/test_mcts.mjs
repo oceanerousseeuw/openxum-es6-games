@@ -5,7 +5,7 @@ let yellow_win = 0;
 
 let sn = process.argv[2];
 
-for (let i = 0; i < 50; ++i) {
+for (let i = 0; i < 20; ++i) {
   let e = new lib.OpenXum.Invers.Engine(lib.OpenXum.Invers.GameType.STANDARD, lib.OpenXum.Invers.Color.RED);
   let p1 = new lib.OpenXum.RandomPlayer(lib.OpenXum.Invers.Color.RED, e);
   let p2 = new lib.OpenXum.MCTSPlayer(lib.OpenXum.Invers.Color.YELLOW, e, sn);
